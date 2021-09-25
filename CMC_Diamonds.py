@@ -45,8 +45,12 @@ def collect_diamonds():
     pyautogui.write("cmc", interval=0.5)
     pyautogui.press("enter")
 
-    # this part clicks on the diamonds button
+    # this part would open full screen
     time.sleep(0.5)
+    pyautogui.hotkey("cmd, ctrl, f")
+
+    # this part clicks on the diamonds button
+    time.sleep(1)
     pyautogui.moveTo(1308, 116)
     time.sleep(0.5)
     pyautogui.click()
