@@ -14,11 +14,8 @@ import time
 
 # file imports:
 from CMC_Diamonds import collect_diamonds
-from Crypto_Opener import open_crypto
+# from file import function
+# from file import function
+# from file import function
 
-collect_diamonds()
-time.sleep(5)
-print("done the first thing")
 
-open_crypto()
-print("done the second thing")
