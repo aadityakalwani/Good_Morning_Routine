@@ -24,8 +24,6 @@ def open_spotify():
     pyautogui.keyUp("command")
     pyautogui.keyUp("f")
 
-    time.sleep(3)
-
 
 open_spotify()
 
