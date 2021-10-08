@@ -7,14 +7,14 @@
 import time
 import pyautogui
 
-# open spotify
-
 
 def open_spotify():
-    print("opening spotify")
-    pyautogui.keyDown("command")
-    pyautogui.keyDown("space")
-    time.sleep(1)
-    pyautogui.write("spotify")
-    pyautogui.press("enter")
 
+    pyautogui.hotkey("command", "shift", "s", interval=0.1)
+    time.sleep(2)
+    print("spotify is now open")
+
+
+open_spotify()
+
+print("completed")
